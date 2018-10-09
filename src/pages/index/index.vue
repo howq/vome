@@ -1,7 +1,5 @@
 <template>
-  <!--<div class="container" @click="clickHandle('test click', $event)">-->
-  <div class="container">
-
+  <div>
     <div class="userinfo" @click="bindViewTap">
       <img class="userinfo-avatar" v-if="userInfo.avatarUrl" :src="userInfo.avatarUrl" background-size="cover" />
       <div class="userinfo-nickname">
@@ -9,8 +7,67 @@
       </div>
     </div>
 
-
-
+  <!--<div class="container" @click="clickHandle('test click', $event)">-->
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
+    <van-card
+      desc="描述信息"
+      title="商品标题"
+      :thumb="imageURL"
+    />
     <!--<div class="usermotto">-->
       <!--<div class="user-motto">-->
         <!--<card :text="motto"></card>-->
@@ -22,13 +79,13 @@
       <!--<input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />-->
     <!--</form>-->
     <!--<a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>-->
-    <van-tabbar fixed :active="active" @change="onChange">
-      <van-tabbar-item icon="shop">标签</van-tabbar-item>
-      <van-tabbar-item icon="chat" dot>标签</van-tabbar-item>
-      <van-tabbar-item icon="records" info="5">标签</van-tabbar-item>
-      <van-tabbar-item icon="gold-coin" info="20">标签</van-tabbar-item>
-    </van-tabbar>
-  </div>
+    <!--<van-tabbar fixed :active="active" @change="onChange">-->
+      <!--<van-tabbar-item icon="shop">标签</van-tabbar-item>-->
+      <!--<van-tabbar-item icon="chat" dot>标签</van-tabbar-item>-->
+      <!--<van-tabbar-item icon="records" info="5">标签</van-tabbar-item>-->
+      <!--<van-tabbar-item icon="gold-coin" info="20">标签</van-tabbar-item>-->
+    <!--</van-tabbar>-->
+</div>
 </template>
 
 <script>
@@ -40,7 +97,8 @@ export default {
       motto: 'Hello World',
       userInfo: {},
       active: 0,
-      show: true
+      show: true,
+      imageURL: 'http://mpvue.com/assets/lifecycle.jpg'
     }
   },
 

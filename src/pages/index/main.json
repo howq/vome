@@ -2,6 +2,7 @@
   "usingComponents": {
     "van-popup": "/static/vant/popup/index",
     "van-tabbar": "/static/vant/tabbar/index",
-    "van-tabbar-item": "/static/vant/tabbar-item/index"
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-card": "/static/vant/card/index"
   }
 }
