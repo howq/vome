@@ -2,26 +2,15 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/login/login",
+    "pages/regist/regist"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/main",
-      "text": "首页"
-    },
-      {
-        "pagePath": "pages/counter/main",
-        "text": "推荐"
-      },
-      {
-        "pagePath": "pages/logs/main",
-        "text": "个人中心"
-      }]
   }
+
 }
